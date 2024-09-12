@@ -249,7 +249,7 @@ var obj = JSON.parse(body);
 #var title = flags.get(obj["countryCode"]) + " " + City_ValidCheck(obj["city"]); //+Area_check(obj['country']);
 #var subtitle = ISP_ValidCheck(obj["org"] || obj.as);
 var ip = obj["query"];
-#var description =
+var description =
   "服务商:" +
   obj["isp"] +
   "\n" +
